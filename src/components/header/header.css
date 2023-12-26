@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.header_logo {
+  height: 45px;
+}
+
+.header_dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.header_dropdown > span {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  color: #181818;
+  cursor: pointer;
+}
+
+.header_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+}
+
+.header_icons > .icons {
+  width: 30px;
+  height: 30px;
+  color: #181818;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.header_icons > span > .icons {
+  width: 30px;
+  height: 30px;
+}
+
+.header_icons > .icons:hover {
+  color: #1ab69d;
+}
+
+.header_icons > span > .icons:hover {
+  color: #1ab69d;
+}
+
+.header_dropdown > span:hover {
+  color: #1ab69d;
+}
+
+.header_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.header_button > Button {
+  display: flex;
+  align-items: center;
+  background: #1ab69d;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--font-secondary);
+  border-radius: 3px;
+  padding: 15px 25px;
+}
+
+.header_button > Button > .header_arrow_icon {
+  font-size: 16px;
+  margin: 0 5px;
+  color: #fff;
+}
